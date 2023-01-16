@@ -91,6 +91,13 @@ img {
   border-radius: 50%;
   box-shadow: var(--box-shadow03);
 }
+@media (max-width: 767px) {
+  .img-area img {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1.2rem;
+  }
+}
 .player h3 {
   font-size: 16px;
 }
@@ -108,8 +115,18 @@ img {
 .audioC {
   margin: 30px 0 30px 0;
 }
+@media (max-width: 767px) {
+  .audioC {
+    margin: 0;
+  }
+}
 .song-timer {
   margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .song-timer {
+    margin-bottom: 5px;
+  }
 }
 .song-timer span {
   font-size: 10px;
@@ -170,6 +187,11 @@ img {
 }
 .controls {
   margin: 25px 8px 5px 8px;
+}
+@media (max-width: 767px) {
+  .controls {
+    margin: 20px 8px 5px 8px;
+  }
 }
 .btnC {
   width: 70px;
